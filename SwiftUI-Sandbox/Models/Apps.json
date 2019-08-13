@@ -1,0 +1,139 @@
+[
+    {
+        "name": "People",
+        "id": 0,
+        "selectedPriceID":3,
+        "prices": [{
+            "id":0,
+            "description":"15 Daily Check-Ins",
+            "price":0.0
+        },
+        {
+            "id":1,
+            "description":"50 Daily Check-Ins",
+            "price":14.0
+        },
+        {
+           "id":2,
+           "description":"150 Daily Check-Ins",
+           "price":29.0
+        },
+        {
+           "id":3,
+           "description":"500 Daily Check-Ins",
+           "price":59.0
+        },
+        ]
+    },
+    {
+        "name": "Services",
+        "id": 1,
+        "selectedPriceID":0,
+        "prices": [{
+            "id":0,
+            "description":"15 Daily Check-Ins",
+            "price":0.0
+        },
+        {
+            "id":1,
+            "description":"50 Daily Check-Ins",
+            "price":14.0
+        },
+        {
+           "id":2,
+           "description":"150 Daily Check-Ins",
+           "price":29.0
+        },
+        {
+           "id":3,
+           "description":"500 Daily Check-Ins",
+           "price":59.0
+        },
+        ]
+    },
+    {
+        "name": "Check-Ins",
+        "id": 2,
+        "selectedPriceID":0,
+        "prices": [{
+            "id":0,
+            "description":"15 Daily Check-Ins",
+            "price":0.0
+        },
+        {
+            "id":1,
+            "description":"50 Daily Check-Ins",
+            "price":14.0
+        },
+        {
+           "id":2,
+           "description":"150 Daily Check-Ins",
+           "price":29.0
+        },
+        {
+           "id":3,
+           "description":"500 Daily Check-Ins",
+           "price":59.0
+        },
+        ]
+    },
+    {
+        "name": "Giving",
+        "id": 3,
+        "selectedPriceID":0,
+        "prices": [{
+            "id":0,
+            "description":"15 Daily Check-Ins",
+            "price":0.0
+        },
+        {
+            "id":1,
+            "description":"50 Daily Check-Ins",
+            "price":14.0
+        },
+        {
+           "id":2,
+           "description":"150 Daily Check-Ins",
+           "price":29.0
+        },
+        {
+           "id":3,
+           "description":"500 Daily Check-Ins",
+           "price":59.0
+        },
+        ]
+    },
+    {
+        "name": "Groups",
+        "id": 4,
+        "selectedPriceID":0,
+        "prices": [{
+            "id":0,
+            "description":"15 Daily Check-Ins",
+            "price":0.0
+        },
+        ]
+    },
+    {
+        "name": "Registrations",
+        "id": 5,
+        "selectedPriceID":0,
+        "prices": [{
+            "id":0,
+            "description":"15 Daily Check-Ins",
+            "price":0.0
+        },
+        ]
+    },
+    {
+        "name": "Resources",
+        "id": 6,
+        "selectedPriceID":0,
+        "prices": [{
+            "id":0,
+            "description":"30 million resources",
+            "price":0.0
+        },
+        ]
+    }
+]
