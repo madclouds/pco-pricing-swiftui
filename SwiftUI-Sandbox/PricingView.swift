@@ -9,24 +9,18 @@
 import SwiftUI
 
 struct PricingView: View {
-
-    @State var app0PriceID: Int = 0
-    @State var app1AppPriceID: Int = 0
-    @State var app2AppPriceID: Int = 0
-    @State var app3AppPriceID: Int = 0
-    @State var app4AppPriceID: Int = 0
-    @State var app5AppPriceID: Int = 0
-    @State var app6AppPriceID: Int = 0
-    @State var app7AppPriceID: Int = 0
+    @EnvironmentObject var userData: UserData
 
     @State var isToggle = false
     var body: some View {
         List {
             BannerView()
-            Toggle(isOn: $isToggle) {
-                Text("Toggley")
+            Toggle(isOn: $userData.showHero) {
+                Text("Show Hero")
             }
-            HeroView()
+            if self.userData.showHero {
+                HeroView()
+            }
             Section(header:
                 HStack {
                     Text("APPS & ADD-ONS")
@@ -46,7 +40,7 @@ struct PricingView: View {
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        PricingView()
+        PricingView().environmentObject(UserData())
     }
 }
 #endif

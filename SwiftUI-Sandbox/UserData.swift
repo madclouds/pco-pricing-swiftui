@@ -11,7 +11,7 @@ import SwiftUI
 import Combine
 
 final class UserData: ObservableObject  {
-    var showFavoritesOnly = false
+    @Published var showHero = true
     @Published var checkinsIndex = 0
     @Published var givingIndex = 0
     @Published var groupsIndex = 0
