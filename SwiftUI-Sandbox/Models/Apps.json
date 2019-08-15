@@ -1,60 +1,7 @@
 [
     {
-        "name": "People",
-        "id": 0,
-        "selectedPriceID":3,
-        "prices": [{
-            "id":0,
-            "description":"15 Daily Check-Ins",
-            "price":0.0
-        },
-        {
-            "id":1,
-            "description":"50 Daily Check-Ins",
-            "price":14.0
-        },
-        {
-           "id":2,
-           "description":"150 Daily Check-Ins",
-           "price":29.0
-        },
-        {
-           "id":3,
-           "description":"500 Daily Check-Ins",
-           "price":59.0
-        },
-        ]
-    },
-    {
-        "name": "Services",
-        "id": 1,
-        "selectedPriceID":0,
-        "prices": [{
-            "id":0,
-            "description":"15 Daily Check-Ins",
-            "price":0.0
-        },
-        {
-            "id":1,
-            "description":"50 Daily Check-Ins",
-            "price":14.0
-        },
-        {
-           "id":2,
-           "description":"150 Daily Check-Ins",
-           "price":29.0
-        },
-        {
-           "id":3,
-           "description":"500 Daily Check-Ins",
-           "price":59.0
-        },
-        ]
-    },
-    {
         "name": "Check-Ins",
-        "id": 2,
-        "selectedPriceID":0,
+        "id": 0,
         "prices": [{
             "id":0,
             "description":"15 Daily Check-Ins",
@@ -74,66 +21,227 @@
            "id":3,
            "description":"500 Daily Check-Ins",
            "price":59.0
+        },
+        {
+           "id":4,
+           "description":"1,250 Daily Check-Ins",
+           "price":99.0
+        },
+        {
+           "id":5,
+           "description":"3,000 Daily Check-Ins",
+           "price":149.0
+        },
+        {
+           "id":6,
+           "description":"Unlimited",
+           "price":199.0
         },
         ]
     },
     {
         "name": "Giving",
-        "id": 3,
-        "selectedPriceID":0,
+        "id": 1,
         "prices": [{
             "id":0,
-            "description":"15 Daily Check-Ins",
+            "description":"10 Monthly Donations",
             "price":0.0
         },
         {
             "id":1,
-            "description":"50 Daily Check-Ins",
+            "description":"100 Monthly Donations",
             "price":14.0
         },
         {
-           "id":2,
-           "description":"150 Daily Check-Ins",
-           "price":29.0
+            "id":2,
+            "description":"250 Monthly Donations",
+            "price":29.0
         },
         {
-           "id":3,
-           "description":"500 Daily Check-Ins",
-           "price":59.0
+            "id":3,
+            "description":"600 Monthly Donations",
+            "price":59.0
+        },
+        {
+            "id":4,
+            "description":"1,250 Monthly Donations",
+            "price":99.0
+        },
+        {
+            "id":5,
+            "description":"2,000 Monthly Donations",
+            "price":149.0
+        },
+        {
+            "id":6,
+            "description":"Unlimited",
+            "price":199.0
         },
         ]
     },
     {
         "name": "Groups",
-        "id": 4,
-        "selectedPriceID":0,
+        "id": 2,
         "prices": [{
             "id":0,
-            "description":"15 Daily Check-Ins",
+            "description":"Development",
             "price":0.0
+        },
+        {
+            "id":1,
+            "description":"125 Group Members",
+            "price":14.0
+        },
+        {
+            "id":2,
+            "description":"300 Group Members",
+            "price":29.0
+        },
+        {
+            "id":3,
+            "description":"700 Group Members",
+            "price":59.0
+        },
+        {
+            "id":4,
+            "description":"1,250 Group Members",
+            "price":99.0
+        },
+        {
+            "id":5,
+            "description":"2,500 Group Members",
+            "price":149.0
+        },
+        {
+            "id":6,
+            "description":"Unlimited",
+            "price":199.0
         },
         ]
     },
     {
         "name": "Registrations",
-        "id": 5,
-        "selectedPriceID":0,
+        "id": 3,
         "prices": [{
             "id":0,
-            "description":"15 Daily Check-Ins",
+            "description":"5 Attendees",
             "price":0.0
+        },
+        {
+            "id":1,
+            "description":"20 Attendees",
+            "price":14.0
+        },
+        {
+            "id":2,
+            "description":"55 Attendees",
+            "price":29.0
+        },
+        {
+            "id":3,
+            "description":"150 Attendees",
+            "price":59.0
+        },
+        {
+            "id":4,
+            "description":"500 Attendees",
+            "price":99.0
+        },
+        {
+            "id":5,
+            "description":"2,000 Attendees",
+            "price":149.0
+        },
+        {
+            "id":6,
+            "description":"5,000 tendees",
+            "price":199.0
         },
         ]
     },
     {
         "name": "Resources",
-        "id": 6,
-        "selectedPriceID":0,
+        "id": 4,
         "prices": [{
             "id":0,
-            "description":"30 million resources",
+            "description":"2 Rooms",
             "price":0.0
         },
+        {
+            "id":1,
+            "description":"Complimentary",
+            "price":0.0
+        },
+        {
+            "id":2,
+            "description":"10 Rooms",
+            "price":14.0
+        },
+        {
+            "id":3,
+            "description":"25 Rooms",
+            "price":29.0
+        },
+        {
+            "id":4,
+            "description":"55 Rooms",
+            "price":59.0
+        },
+        {
+            "id":5,
+            "description":"100 Rooms",
+            "price":99.0
+        },
+        {
+            "id":6,
+            "description":"150 Rooms",
+            "price":149.0
+        },
+        {
+            "id":7,
+            "description":"Unlimited",
+            "price":199.0
+        },
         ]
-    }
+    },
+    {
+        "name": "Services",
+        "id": 5,
+        "prices": [{
+            "id":0,
+            "description":"5 Team Memers",
+            "price":0.0
+        },
+        {
+            "id":1,
+            "description":"25 Team Members",
+            "price":14.0
+        },
+        {
+           "id":2,
+           "description":"50 Team Members",
+           "price":29.0
+        },
+        {
+           "id":3,
+           "description":"150 Team Members",
+           "price":59.0
+        },
+        {
+           "id":4,
+           "description":"400 Team Members",
+           "price":99.0
+        },
+        {
+           "id":5,
+           "description":"1,000 Team Members",
+           "price":149.0
+        },
+        {
+           "id":6,
+           "description":"Unlimited",
+           "price":199.0
+        },
+        ]
+    },
 ]

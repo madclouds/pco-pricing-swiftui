@@ -15,12 +15,7 @@ struct PricingView: View {
     var body: some View {
         List {
             BannerView()
-            Toggle(isOn: $userData.showHero) {
-                Text("Show Hero")
-            }
-            if self.userData.showHero {
-                HeroView()
-            }
+            HeroView()
             Section(header:
                 HStack {
                     Text("APPS & ADD-ONS")
@@ -29,11 +24,11 @@ struct PricingView: View {
                 },
             footer: Text("A lot to learn")) {
                 ForEach(appData) { app in
-                    PriceRow(app: app)
+                    PriceRow(app: app).environmentObject(UserData())
                 }
             }
 
-        }.listStyle(GroupedListStyle())
+        }.listStyle(GroupedListStyle()).edgesIgnoringSafeArea(.all)
     }
 }
 

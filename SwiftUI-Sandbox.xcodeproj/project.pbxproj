@@ -20,6 +20,7 @@
 		22B0C2D8230215DF00FEE2E3 /* PriceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0C2D7230215DF00FEE2E3 /* PriceRow.swift */; };
 		22B0C2DA23021B2300FEE2E3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0C2D923021B2300FEE2E3 /* Data.swift */; };
 		22B0C2DC2302376C00FEE2E3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0C2DB2302376C00FEE2E3 /* UserData.swift */; };
+		600B7B6B23033B9F009A48E1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B7B6A23033B9F009A48E1 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		22B0C2D7230215DF00FEE2E3 /* PriceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRow.swift; sourceTree = "<group>"; };
 		22B0C2D923021B2300FEE2E3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		22B0C2DB2302376C00FEE2E3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		600B7B6A23033B9F009A48E1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				22B0C2CE2301FAC500FEE2E3 /* BannerView.swift */,
 				22B0C2D7230215DF00FEE2E3 /* PriceRow.swift */,
 				22B0C2D02301FB6500FEE2E3 /* HeroView.swift */,
+				600B7B6A23033B9F009A48E1 /* TestView.swift */,
 				22B0C2BE2301E8BF00FEE2E3 /* Assets.xcassets */,
 				22B0C2C32301E8BF00FEE2E3 /* LaunchScreen.storyboard */,
 				22B0C2C62301E8BF00FEE2E3 /* Info.plist */,
@@ -182,6 +185,7 @@
 				22B0C2DC2302376C00FEE2E3 /* UserData.swift in Sources */,
 				22B0C2B92301E8BD00FEE2E3 /* AppDelegate.swift in Sources */,
 				22B0C2BB2301E8BD00FEE2E3 /* SceneDelegate.swift in Sources */,
+				600B7B6B23033B9F009A48E1 /* TestView.swift in Sources */,
 				22B0C2D42302041F00FEE2E3 /* App.swift in Sources */,
 				22B0C2BD2301E8BD00FEE2E3 /* PricingView.swift in Sources */,
 				22B0C2DA23021B2300FEE2E3 /* Data.swift in Sources */,

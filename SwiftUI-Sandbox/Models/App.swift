@@ -17,7 +17,6 @@ struct Price: Hashable, Codable, Identifiable {
 struct App: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
-    var selectedPriceID: Int 
     var prices: [Price]
 //    var color: Color
 //    var productManager: String
